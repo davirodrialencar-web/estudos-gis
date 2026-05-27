@@ -1,4 +1,4 @@
 const desconto = (preço, percentual) => {
     return (percentual/100)*preço
 }
-console.log(desconto( 1560, 80))
+console.log(`O desconto é de ${desconto(130, 70)} reais.`)
